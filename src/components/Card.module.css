@@ -11,7 +11,7 @@
   border-radius: 20px;
 }
 .card img {
-  width: 230px !important;
+  width: 230px;
   height: 230px;
   padding: 20px;
   margin-bottom: 20px;
@@ -59,4 +59,26 @@
   padding: 2px;
   border-radius: 8px;
   cursor: pointer;
+}
+@media only screen and (max-width: 600px) {
+  .card {
+    width: 210px;
+  }
+  .card img {
+    width: 170px;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .card {
+    width: 260px;
+    padding: 10px;
+  }
+  .card img {
+    width: 210px;
+    height: 210px;
+  }
+  .card h3{
+    font-size: .8rem;
+  }
 }

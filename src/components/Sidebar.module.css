@@ -32,3 +32,22 @@
   color: #fe5d42;
   border-radius: 10px;
 }
+@media only screen and (max-width: 480px) {
+  .sidebar {
+    width: 100px;
+    padding: 10px;
+    margin-left: 20px;
+  }
+  .sidebar div {
+    width: 100px;
+    font-weight: 200;
+    display: none;
+  }
+  .sidebar p{
+    font-size: .6rem;
+  }
+  .sidebar li{
+    font-size: .8rem;
+    padding: 1px;
+  }
+}
